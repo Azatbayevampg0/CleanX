@@ -1,0 +1,204 @@
+/* --- General Contact Section Styling --- */
+.contact {
+	padding: 100px 0px;
+}
+
+.contact__items {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 60px;
+	align-items: center;
+	padding: 20px;
+}
+
+/* --- Left Side (Text and Button) --- */
+.contact__item-header {
+	margin-bottom: 32px;
+	color: #211f54;
+	font-family: Roboto;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 58px;
+}
+
+.contact__item-paragraph {
+	margin-bottom: 39px;
+	color: #6e7191;
+	font-family: Roboto;
+	font-size: 21px;
+	font-weight: 400;
+	line-height: 30px;
+}
+
+.contact__item-line {
+	margin-bottom: 55px;
+	background: #dcddeb;
+	width: 100%; /* Adjusted for responsiveness */
+	height: 1px;
+}
+
+.contact__item-convince {
+	margin-bottom: 9px;
+	color: #211f54;
+	font-family: Roboto;
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 36px;
+}
+
+.contact__item-btn {
+	display: inline-block;
+	padding: 18px 30px;
+	color: #fff;
+	background: #0075ff;
+	border-radius: 14px;
+	border: none;
+	box-shadow: 0px 4px 10px rgba(20, 20, 43, 0.04);
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 700;
+	text-align: center;
+	cursor: pointer;
+	transition: 0.3s ease-in-out;
+}
+
+.contact__item-btn:hover {
+	background: #005ec2;
+}
+
+/* --- Right Side (Form) --- */
+.contact__item-right {
+	padding: 40px;
+	border-radius: 16px;
+	border: 1px solid #eff0f6;
+	background: #fff;
+	box-shadow: 0px 2px 6px rgba(20, 20, 43, 0.04);
+}
+
+/* --- Form Layout --- */
+.contact__item-cover {
+	display: flex;
+	gap: 20px;
+	flex-wrap: wrap;
+}
+
+/* --- Labels --- */
+label {
+	display: block;
+	margin-bottom: 10px;
+	color: #211f54;
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+}
+
+/* --- Inputs and Textareas --- */
+input,
+textarea {
+	width: 100%;
+	border-radius: 16px;
+	border: 1px solid #eff0f6;
+	background: #fff;
+	box-shadow: 0px 2px 12px rgba(20, 20, 43, 0.08);
+	padding: 12px;
+	font-size: 16px;
+}
+
+input {
+	height: 50px;
+}
+
+textarea {
+	height: 120px;
+	border-radius: 22px;
+	margin-bottom: 10px;
+	resize: none; /* Prevent text resizing issues */
+}
+
+/* --- Submit Button --- */
+.contact__form-btn {
+	display: block;
+	width: 100%;
+	max-width: 350px;
+	margin: 20px auto 0;
+	padding: 15px;
+	color: #fff;
+	background: #0075ff;
+	border-radius: 14px;
+	border: none;
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 700;
+	cursor: pointer;
+	transition: 0.3s;
+	text-align: center;
+}
+
+.contact__form-btn:hover {
+	background: #005ec2;
+}
+
+/* --- Responsive Design --- */
+
+/* --- Tablets and Small Screens --- */
+@media (max-width: 1000px) {
+	.contact__items {
+		grid-template-columns: 1fr;
+		justify-content: center;
+	}
+
+	.contact__item-header {
+		font-size: 36px;
+		line-height: 46px;
+		text-align: center;
+	}
+
+	.contact__item-paragraph {
+		font-size: 18px;
+		text-align: center;
+	}
+
+	.contact__item-convince {
+		text-align: center;
+	}
+
+	.contact__item-right {
+		padding: 30px;
+	}
+}
+
+/* --- Mobile Phones --- */
+@media (max-width: 550px) {
+	.contact {
+		padding: 50px 0;
+	}
+
+	.contact__items {
+		padding: 0px;
+	}
+
+	.contact__item-cover {
+		flex-direction: column;
+	}
+
+	.contact__item-header {
+		font-size: 32px;
+		line-height: 40px;
+	}
+
+	.contact__item-paragraph {
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.contact__item-btn {
+		width: 100%;
+		padding: 15px;
+		font-size: 16px;
+	}
+
+	.contact__form-btn {
+		width: 100%;
+	}
+}

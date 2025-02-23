@@ -1,0 +1,121 @@
+footer {
+	padding: 100px 0px 0px;
+}
+.footer__items {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	column-gap: 30px;
+}
+.footer__item-description {
+	color: #000;
+	margin-bottom: 7px;
+	color: #211f54;
+	font-family: Roboto;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 36.008px; /* 128.6% */
+}
+.footer__item-week {
+	margin-top: 17px;
+	color: #211f54;
+	font-family: Roboto;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 19.998px; /* 111.1% */
+}
+.footer__item-paragraph {
+	margin-top: 7px;
+	color: #6e7191;
+	font-family: Roboto;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 30.006px; /* 166.7% */
+}
+.footer__item-sq {
+	display: flex;
+	align-items: center;
+	column-gap: 26px;
+}
+.footer__item-des {
+	margin-bottom: 28px;
+	color: #211f54;
+	font-family: Roboto;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 22px; /* 110% */
+}
+.footer__item-stars {
+	margin-top: 36px;
+	width: 36px;
+	height: 36px;
+	flex-shrink: 0;
+	border-radius: 8px;
+	background: #edf5ff;
+}
+.footer__num {
+	color: #0075ff;
+	font-family: Roboto;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 36.008px;
+}
+.footer__item-btn {
+	margin-top: 18px;
+	padding: 26px 38px;
+	border: none;
+	color: #fff;
+	text-align: center;
+	font-family: Roboto;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 20px;
+	border-radius: 14px;
+	background: #0075ff;
+}
+.footer__last {
+	padding: 100px 0px 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.footer__last-item {
+	color: #6e7191;
+	text-align: right;
+	font-family: Roboto;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 30.006px;
+}
+span {
+	color: #0075ff;
+	text-align: right;
+	font-family: Roboto;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 30.006px; /* 166.7% */
+	text-decoration-line: underline;
+	text-decoration-style: solid;
+	text-decoration-skip-ink: none;
+	text-decoration-thickness: auto;
+	text-underline-offset: auto;
+	text-underline-position: from-font;
+}
+@media (max-width: 1010px) {
+	.footer__items {
+		flex-wrap: wrap;
+	}
+}
+@media (max-width: 600px) {
+	.footer__last {
+		flex-wrap: wrap;
+	}
+}
