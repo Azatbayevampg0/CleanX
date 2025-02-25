@@ -1,7 +1,7 @@
 import React from 'react'
 import Button from '../button/Button'
 import Cleaner from '../../assets/images/Women.png'
-import phoneImg from '../../assets/images/phone-icon.svg'
+
 import homeStyle from './Home.module.css' // ✅ Corrected import
 import Info from '../info/Info'
 
